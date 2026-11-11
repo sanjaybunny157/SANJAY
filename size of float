@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+   float a=6.88;
+   printf("size of float is:%zu",sizeof(a));
+
+    return 0;
+}
