@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+   char a='g';
+   printf("size of character is:%zu",sizeof(a));
+
+    return 0;
+}
