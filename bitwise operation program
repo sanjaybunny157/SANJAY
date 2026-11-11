@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a=40;
+    int b=3;
+    printf("and operation is:%d",a&b);
+    printf("\n or operation is:%d",a|b);
+    printf("\n not operation is:%d",~a);
+    printf("\n not operation is:%d",~b);
+    printf("\n ex-or operation is:%d",a^b);
+    printf("\n left shift operation is:%d",a<<b);
+    printf("\n right shift operation is:%d",a>>b);
+    return 0;
+}
