@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    char b='g';
+    float c=6.88;
+   double d=66665554;
+   printf("size of interger is:%zu",sizeof(a));
+   printf("\n size of character is:%zu",sizeof(b));
+   printf("\n size of float is:%zu",sizeof(c));
+   printf("\n size of double is:%zu",sizeof(d));
+   return 0;
+}
