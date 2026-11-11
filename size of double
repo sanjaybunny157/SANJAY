@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+   double a=66665554;
+   printf("size of double is:%zu",sizeof(a));
+
+    return 0;
+}
