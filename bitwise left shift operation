@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    int a=40;
+    int b=3;
+    printf("left shift operation is:%d",a<<b);
+    return 0;
+}
